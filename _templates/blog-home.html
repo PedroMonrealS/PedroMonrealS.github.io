@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pedro Monreal Sánchez</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="/assets/img/profile_pic.jpg"
+        alt="Foto de perfil"
+        class="profile"
+      />
+
+      <h1>Pedro Monreal Sánchez</h1>
+
+      {% include "menu.html" %}
+
+      <nav class="post-list">
+        <h2>{{ title }}</h2>
+        <div class="post-content">{{ content | safe }}</div>
+
+        <ul>
+          {% for post in collections.blog | reverse %} {% if post.data.show %}
+          <a href="{{ post.url }}">
+            <li>
+              {{ post.data.title }}
+              <small>{{ post.date | readableDate }}</small>
+            </li>
+          </a>
+          {% endif %} {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </body>
+</html>
