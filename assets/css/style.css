@@ -134,3 +134,15 @@ nav.post-list a {
   padding: 5px;
   color: var(--fg-deactivated);
 }
+
+
+ .button-post{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #fff;
+    background-color:var(--accent-bg);
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+ }
