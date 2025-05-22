@@ -4,4 +4,19 @@ layout: about
 permalink: /about/index.html
 ---
 
-Hey muy buenas a todos, estamos aquí en directo. ¿A que os apetece que juguemos hoy? Antes de nada, un poco sobre mí, Hola, me llamo Pedro Monreal, mas conocido como Pedro Monreal Gamer. Soy estudiante, streamer y youtuber, me alegro de que te hayas fijado en mi canal. ¡Muchas gracias por el apoyo!
+👋 ¡Hola! Soy Pedro Monreal
+Apasionado de la tecnología y el mundo audiovisual, me involucro en todo lo relacionado con la innovación, la creatividad y el diseño.
+
+💡 Áreas que me apasionan:
+
+Redes – configurando y optimizando redes de internet para asegurar su rendimiento y seguridad.
+
+Programación – desarrollando desde pequeños scripts hasta páginas web completas.
+
+Domótica – automatizando todo lo que tengo cerca para que funcione de forma más inteligente, cómoda y eficiente.
+
+Sonido e Iluminación – cuidando cada detalle para que todo suene y se vea como debe, sin complicaciones pero con calidad.
+
+Creación de contenido – documentando y compartiendo mis proyectos de electrónica, programación y tecnología.
+
+Fotografía – enfocándome en los detalles técnicos para lograr imágenes claras y de calidad.
